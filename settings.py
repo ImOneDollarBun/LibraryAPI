@@ -25,8 +25,8 @@ class Settings:
 
     class auth_jwt:
         algorithm = 'RS256'
-        public_key_path = os.path.join('app', 'utils', 'certs', 'public_key.pem')
-        private_key_path = os.path.join('app', 'utils', 'certs', 'private_key.pem')
+        public_key_path = os.path.join('app', 'public_key.pem')
+        private_key_path = os.path.join('app', 'private_key.pem')
 
 
 settings = Settings()
