@@ -2,7 +2,7 @@
 ### Клонируем и подготавливаемся
 ```bash
 git clone https://github.com/ImOneDollarBun/LibraryAPI.git
-git cd LibraryAPI
+cd LibraryAPI
 ```
 
 Редактируем файл окружения под нужды (на убунте)
