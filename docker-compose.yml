@@ -1,11 +1,11 @@
-version: '3.8'
+version: "3.8"
 
 services:
   web:
     build: .
     container_name: fastapi_app
     ports:
-      - '8000:8000'
+      - "8000:8000"
 
     depends_on:
       - db
@@ -28,7 +28,7 @@ services:
       POSTGRES_PASSWORD: ${DB_PASSWORD}
 
     ports:
-      - '5432:5432'
+      - "5432:5432"
 
     volumes:
       - pgdata:/var/lib/postgresql/data
